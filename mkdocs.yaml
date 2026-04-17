@@ -1,0 +1,18 @@
+site_name: SC Mesh
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+    - search.share
+
+nav:
+  - Home: index.md
+  - Primeiros Passos: primeiros-passos.md
+  - Comunidade: comunidade-governanca.md
+  - Hardware: hardware.md
+  - Infraestrutura: infraestrutura.md
+  - Wiki Técnica: wiki-tecnica.md
+  - Recursos: recursos.md
