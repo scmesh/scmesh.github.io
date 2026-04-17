@@ -60,13 +60,62 @@ Na configuração do dispositivo, escolha o *role* correto:
 - **ROUTER** — apenas para nós fixos em ponto alto, ligados 24/7. Não use no seu rádio pessoal.
 - **ROUTER_CLIENT** — evite. Reservado para casos específicos.
 
+## 🔐 Segurança inicial
+
+Antes de sair transmitindo, revise estes pontos — 30 segundos de configuração que evitam dor de cabeça depois:
+
+- **Desative MQTT.** Em *Module Config → MQTT*, deixe `Enabled = false`. A SC Mesh opera off-grid; habilitar MQTT espelha suas mensagens publicamente na internet.
+- **Mude o PIN do Bluetooth.** Padrão `123456` é igual para todo mundo. Defina um seu em *Device Config → Security*.
+- **Renomeie o nó.** Evite short name padrão tipo `abc1`. Use algo reconhecível (ex.: `FSG1` = "Floripa Saco dos Limões 1").
+- **Revise o canal primário.** Se for conversar em canal público, saiba que qualquer um com Meshtastic lê. Para família/grupo, crie canal com PSK dedicada.
+
+Aprofundamento em [Segurança e Privacidade](seguranca-privacidade.md).
+
+## 🔄 Atualização de firmware
+
+O firmware do Meshtastic evolui rápido. Recomendamos versão **2.5 ou superior**.
+
+- **Onde ver a versão atual:** app → *Settings → About*.
+- **Quando atualizar:** quando a comunidade migrar para nova versão major (2.x → 2.y) ou quando uma correção de bug te afeta. Não atualize no meio de uma operação crítica.
+- **Como atualizar:**
+    - Pela [Web Flasher](https://flasher.meshtastic.org/) (mais seguro para ESP32).
+    - Pelo próprio app (OTA BLE) — mais conveniente, ocasionalmente falha e exige re-flash.
+    - Pela CLI Python: `pip install meshtastic && meshtastic --export-config`.
+- **Cuidado com downgrade.** Ir de 2.5 para 2.2 pode corromper configs. Exporte antes: `meshtastic --export-config > backup.yaml`.
+
 ## 🧪 Teste inicial
 
 Depois de configurado, abra o app e:
 
 1. Envie uma mensagem no canal `LongFast` dizendo "Teste de alcance, sou novo na rede, cidade X". Espere alguém responder.
 2. Veja a lista de nós (*Nodes*). Você deve enxergar pelo menos um vizinho se houver cobertura na sua região.
-3. Confira RSSI e SNR dos vizinhos. Se RSSI estiver abaixo de -120 dBm, sua antena/posição precisa melhorar.
+3. Confira RSSI e SNR dos vizinhos — os números mais importantes que você vai aprender.
+
+### Lendo RSSI e SNR
+
+**RSSI** (intensidade do sinal recebido, em dBm) — quanto mais próximo de 0, melhor:
+
+| RSSI | Qualidade |
+| :--- | :--- |
+| > -80 dBm | Excelente, vizinho próximo |
+| -80 a -100 dBm | Bom |
+| -100 a -115 dBm | Funcional |
+| -115 a -125 dBm | No limite, mensagens começam a cair |
+| < -125 dBm | Inviável |
+
+**SNR** (relação sinal-ruído, em dB) — é mais importante que RSSI para LoRa:
+
+| SNR | Qualidade |
+| :--- | :--- |
+| > 5 dB | Ótimo |
+| 0 a 5 dB | Bom |
+| -5 a 0 dB | OK, perda ocasional |
+| -10 a -5 dB | No limite |
+| < -15 dB | Abaixo do piso de decodificação |
+
+Valores abaixo do esperado? Troque a antena ou mude a posição do rádio (perto da janela, longe de metal) antes de culpar o hardware.
+
+Mais detalhes em [Glossário](glossario.md) e no [teste de alcance sistemático](infraestrutura.md#teste-de-alcance-sistematico).
 
 ## ➡️ Próximos passos
 

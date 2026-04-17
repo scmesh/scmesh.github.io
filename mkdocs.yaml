@@ -18,11 +18,14 @@ theme:
 nav:
   - Home: index.md
   - Primeiros Passos: primeiros-passos.md
-  - Comunidade: comunidade-governanca.md
   - Hardware: hardware.md
   - Infraestrutura: infraestrutura.md
   - Emergência: emergencia.md
+  - Segurança e Privacidade: seguranca-privacidade.md
+  - Casos de Uso: casos-de-uso.md
+  - Comunidade: comunidade-governanca.md
   - Wiki Técnica: wiki-tecnica.md
   - FAQ: faq.md
   - Glossário: glossario.md
+  - Ferramentas: ferramentas.md
   - Recursos: recursos.md
