@@ -13,6 +13,4 @@ Acesse o mapa em tempo real para ver os nós ativos e a cobertura em SC:
 
 ### 💬 Junte-se a nós
 Interaja com outros operadores e tire suas dúvidas:
-* [Discord do SC Mesh](#)
-* [Grupo Telegram](#)
-* [Comunidade WhatsApp](#)
+* [Comunidade WhatsApp](https://chat.whatsapp.com/Hn19DdrY6460uGn0EkYwlQ)
