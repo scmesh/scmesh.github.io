@@ -15,8 +15,15 @@ theme:
     logo: fontawesome/solid/circle-nodes
   favicon: img/favicon.png
 
+plugins:
+  - search
+  - blog:
+      authors_profiles: true
+      blog_toc: true
+
 nav:
   - Home: index.md
+  - Blog: blog/index.md
   - Primeiros Passos: primeiros-passos.md
   - Comunidade: comunidade-governanca.md
   - Hardware: hardware.md
