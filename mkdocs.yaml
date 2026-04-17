@@ -11,6 +11,9 @@ theme:
   features:
     - navigation.tabs
     - search.share
+  icon:
+    logo: fontawesome/solid/circle-nodes
+  favicon: img/favicon.png
 
 nav:
   - Home: index.md
