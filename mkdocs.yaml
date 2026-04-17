@@ -1,4 +1,8 @@
 site_name: SC Mesh
+site_url: https://www.sc-mesh.org
+repo_url: https://github.com/scmesh/scmesh.github.io/
+
+
 theme:
   name: material
   palette:
