@@ -34,3 +34,8 @@ nav:
   - Infraestrutura: infraestrutura.md
   - Wiki Técnica: wiki-tecnica.md
   - Recursos: recursos.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
