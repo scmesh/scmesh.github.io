@@ -23,7 +23,15 @@ nav:
   - Emergência: emergencia.md
   - Segurança e Privacidade: seguranca-privacidade.md
   - Casos de Uso: casos-de-uso.md
-  - Comunidade: comunidade-governanca.md
+  - Comunidade:
+      - Visão e governança: comunidade-governanca.md
+      - Eventos: eventos.md
+      - Vaquinhas e financiamento: financiamento.md
+      - Galeria de setups: galeria.md
+      - Para radioamadores: radioamadores.md
+      - Relatórios pós-evento: relatorios.md
+      - Código de conduta: codigo-de-conduta.md
+      - Como contribuir: contribuindo.md
   - Wiki Técnica: wiki-tecnica.md
   - FAQ: faq.md
   - Glossário: glossario.md
