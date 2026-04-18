@@ -6,8 +6,12 @@ repo_url: https://github.com/scmesh/scmesh.github.io/
 theme:
   name: material
   palette:
-    primary: indigo
-    accent: blue
+    - scheme: slate
+      primary: black
+      accent: green
+      toggle:
+        icon: material/console
+        name: Switch to dark mode
   features:
     - navigation.tabs
     - search.share
