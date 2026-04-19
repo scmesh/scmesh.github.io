@@ -60,7 +60,6 @@ Na configuração do dispositivo, escolha o *role* correto:
 - **CLIENT** — padrão. Seu rádio pessoal. Use este.
 - **CLIENT_MUTE** — como CLIENT, mas não retransmite. Use em áreas já bem cobertas por outros nós.
 - **ROUTER** — apenas para nós fixos em ponto alto, ligados 24/7. Não use no seu rádio pessoal.
-- **ROUTER_CLIENT** — evite. Reservado para casos específicos.
 
 ## 🔐 Segurança inicial
 

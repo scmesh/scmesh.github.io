@@ -74,7 +74,7 @@ Um apanhado rápido dos termos técnicos mais usados na rede SC Mesh e na comuni
 
 **ROUTER** — Tipo de nó fixo, em local alto, cuja função principal é retransmitir pacotes alheios. Não dorme.
 
-**ROUTER_CLIENT** — Híbrido: retransmite e também é usado como cliente pessoal. Evite em repetidoras dedicadas.
+**ROUTER_CLIENT** — Descontinuado no firmware Meshtastic. Não configure novos nós com esta role; em rádios pessoais use `CLIENT`, em nós fixos dedicados use `ROUTER`.
 
 ## S
 

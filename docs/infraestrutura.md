@@ -8,7 +8,9 @@ A malha só cresce quando alguém topa levantar um nó. Esta página reúne dire
 - **CLIENT_BASE** — nó fixo em casa/escritório; prioriza tráfego de nós favoritos sem exigir ponto alto.
 - **CLIENT_MUTE** — CLIENT que não retransmite. Use em áreas já cobertas.
 - **ROUTER** — nó fixo em ponto alto, 24/7. Prioriza tráfego alheio.
-- **REPEATER** — variante mais enxuta do ROUTER, sem recursos de cliente.
+
+!!! warning "REPEATER foi descontinuado"
+    A role `REPEATER` foi descontinuada no firmware Meshtastic a partir da versão **2.7.11**. Em nós novos, use `ROUTER`. Se você ainda tem um rádio configurado como `REPEATER`, atualize o firmware e migre a role na próxima janela de manutenção.
 
 !!! warning "ROUTER não é decisão individual"
     Configurar seu rádio doméstico como ROUTER em cidade já coberta satura a malha. Antes de subir um nó como ROUTER, avise a comunidade e confirme que o local agrega.
