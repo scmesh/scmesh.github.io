@@ -1,6 +1,14 @@
-# Ferramentas
+# Ferramentas e Recursos
 
-Catálogo de software e hardware que a comunidade SC Mesh usa no dia a dia. Complementa [Recursos](recursos.md), que lista links gerais.
+Catálogo de software, hardware e links úteis que a comunidade SC Mesh usa no dia a dia.
+
+## 🔗 Links oficiais
+
+- [Site oficial Meshtastic](https://meshtastic.org/)
+- [Firmware Meshtastic no GitHub](https://github.com/meshtastic/firmware)
+- [Meshtastic Site Planner](https://site.meshtastic.org/)
+- [Cálculo de visada — Scadacore](https://www.scadacore.com/tools/rf-path/rf-line-of-sight/)
+- [Cálculo de visada — HeyWhatsThat](https://www.heywhatsthat.com/)
 
 ## 📱 Apps oficiais Meshtastic
 
@@ -38,6 +46,9 @@ Docs: [meshtastic.org/docs/software/python](https://meshtastic.org/docs/software
 | Plataforma Meshtastic Brasil | [platform.meshbrasil.com](https://platform.meshbrasil.com/) | Foco no Brasil, também depende de MQTT. |
 | MeshSense | [affirmatech.com/meshsense](https://affirmatech.com/meshsense/) | App desktop para monitorar nós vizinhos com gráficos. |
 | PotatoMesh | [potatomesh.net](https://potatomesh.net/) (referência) | Dashboard open-source de rede regional. |
+| MeshMonitor | [meshmonitor.org](https://meshmonitor.org/) | Ferramenta para monitoramento e automação da sua rede mesh. |
+| Mesh Mapper | [meshtastic.world](https://meshtastic.world/#) | Mapeamento e monitoramento da rede mesh. |
+| AI Responder | [LN4CY/ai-responder](https://github.com/LN4CY/ai-responder) | Integração de IA à sua rede mesh. |
 
 > Muitos nós da SC Mesh optam por **não** enviar a MQTT para preservar o caráter off-grid. Por isso, nem tudo aparece nesses mapas.
 

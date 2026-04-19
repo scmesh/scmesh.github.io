@@ -13,7 +13,7 @@ Cada setup deve incluir:
 - **Operador** (nome ou indicativo, sem dados pessoais).
 - **Cidade/Bairro** (sem endereço completo).
 - **Hardware:** rádio, antena, energia, case.
-- **Role:** CLIENT, ROUTER, REPEATER.
+- **Role:** CLIENT, CLIENT_MUTE ou ROUTER.
 - **Custo aproximado** (opcional).
 - **O que aprendeu** ou faria diferente.
 
