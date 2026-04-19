@@ -5,6 +5,7 @@ A malha só cresce quando alguém topa levantar um nó. Esta página reúne dire
 ## 🏷️ Classificação de nós
 
 - **CLIENT** — seu rádio pessoal. A maioria.
+- **CLIENT_BASE** — nó fixo em casa/escritório; prioriza tráfego de nós favoritos sem exigir ponto alto.
 - **CLIENT_MUTE** — CLIENT que não retransmite. Use em áreas já cobertas.
 - **ROUTER** — nó fixo em ponto alto, 24/7. Prioriza tráfego alheio.
 - **REPEATER** — variante mais enxuta do ROUTER, sem recursos de cliente.

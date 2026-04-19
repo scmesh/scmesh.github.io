@@ -1,5 +1,9 @@
 authors:
   scmesh:
     name: Equipe SC Mesh
-    description: Desenvolvedores e entusiastas da rede SC Mesh.
+    description: Entusiastas da rede SC Mesh.
     avatar: https://github.com/scmesh.png
+  qrgprepper:
+    name: Lucas - PU5LJA
+    description: Engenheiro de Software, Radioamador e criador do canal QRG Prepper.
+    avatar: https://github.com/qrgprepper.png

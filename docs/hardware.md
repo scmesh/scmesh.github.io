@@ -78,7 +78,7 @@ A antena que vem no kit serve só para teste inicial. Troque antes de sair medin
 | Repetidora em morro | Colinear externa | 8–10 dBi | N fêmea |
 | Enlace ponto a ponto | Yagi ou painel direcional | 12–18 dBi | N fêmea |
 
-**Onde comprar (referência):** Rokland, Atlavox, MuziWorks (internacional); procure revendedores nacionais por `antena LoRa 915 MHz SMA` ou `antena 915 N macho omnidirecional`.
+**Onde comprar (referência):** Rokland, Atlavox, MuziWorks (internacional); no mercado nacional, marcas como **GIZONT** e **Ziisor** têm sido bem avaliadas pela comunidade. Procure revendedores por `antena LoRa 915 MHz SMA` ou `antena 915 N macho omnidirecional`.
 
 ### Mito vs. fato
 

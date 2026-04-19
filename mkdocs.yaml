@@ -48,3 +48,8 @@ nav:
   - Glossário: glossario.md
   - Ferramentas: ferramentas.md
   - Recursos: recursos.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

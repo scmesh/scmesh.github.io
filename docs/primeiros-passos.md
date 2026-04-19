@@ -19,6 +19,8 @@ Para começar, você precisará de um rádio compatível com Meshtastic operando
 - **LILYGO T-Beam** — já vem com GPS e suporte a bateria 18650. Bom para uso móvel e trilhas.
 - **Heltec V3** — econômico, com tela OLED. Ideal para quem está começando e vai usar em casa.
 - **RAK WisBlock (RAK4631)** — melhor eficiência energética. Ideal para repetidoras solares.
+- **Seeed Studio** — placas XIAO/Wio para montagem própria ou nós já prontos para usar.
+- **Elecrow ThinkNode** — nós prontos para uso, bom para sensores e telemetria.
 
 Comparação mais detalhada em [Hardware](hardware.md).
 
