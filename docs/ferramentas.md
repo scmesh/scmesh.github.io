@@ -7,8 +7,6 @@ Catálogo de software, hardware e links úteis que a comunidade SC Mesh usa no d
 - [Site oficial Meshtastic](https://meshtastic.org/)
 - [Firmware Meshtastic no GitHub](https://github.com/meshtastic/firmware)
 - [Meshtastic Site Planner](https://site.meshtastic.org/)
-- [Cálculo de visada — Scadacore](https://www.scadacore.com/tools/rf-path/rf-line-of-sight/)
-- [Cálculo de visada — HeyWhatsThat](https://www.heywhatsthat.com/)
 
 ## 📱 Apps oficiais Meshtastic
 
@@ -63,6 +61,8 @@ Ver [Infraestrutura — Ferramentas para escolher o ponto alto](infraestrutura.m
 - [CloudRF](https://cloudrf.com/)
 - [RadioPlanner 3.0](https://www.wireless-planning.com/radioplanner)
 - [QGIS](https://qgis.org/) + dados SRTM/ALOS
+- [Cálculo de visada — Scadacore](https://www.scadacore.com/tools/rf-path/rf-line-of-sight/)
+- [Cálculo de visada — HeyWhatsThat](https://www.heywhatsthat.com/)
 
 ## 🛠️ Hardware auxiliar
 
