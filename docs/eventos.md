@@ -8,7 +8,7 @@ A SC Mesh acontece também fora do rádio. Encontros presenciais aceleram a curv
 
 | Data | Tipo | Local | Observação |
 | :--- | :--- | :--- | :--- |
-| *(em breve)* | Field Day | Litoral | Teste para criar link entre Grande Florianópolis e Vale do Itajaí. Pontos: Morros dos Muller (Antônio Carlos), Morro das Antenas (Jaraguá do Sul) e Morro Azul (Timbó). Nesse teste vamos avaliar a utilização de outros presets, como Medium Slow e Long Slow  |
+| *17/05/2026* | **Field Day** | Litoral | Teste para criar link entre Grande Florianópolis e Vale do Itajaí. Operadores estarão posicionados em pontos altos de suas cidades. Nesse teste vamos avaliar a utilização de outros presets, como Medium Slow e Long Slow  |
 
 ## 🎯 Tipos de encontro
 
