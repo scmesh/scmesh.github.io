@@ -82,8 +82,6 @@ A administração seguirá estas diretrizes ao definir as consequências de viol
 
 Este código se aplica em todos os espaços da comunidade SC Mesh, e também quando uma pessoa estiver representando oficialmente a comunidade em espaços públicos. Exemplos de representação: usar e-mail oficial, postar em conta oficial de rede social, atuar como representante designado em evento online ou offline.
 
-Mensagens trafegando pela própria malha LoRa também caem aqui — usar o canal `SC-EMERGENCIA` para piada, propaganda ou assédio é violação direta.
-
 ## 🤝 Resolução de conflito técnico
 
 Discordâncias técnicas acontecem (e são saudáveis). Disputas sobre escolhas de hardware, configuração ou estratégia de cobertura devem:

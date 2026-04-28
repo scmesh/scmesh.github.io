@@ -50,7 +50,6 @@ Para que todos se comuniquem na mesma malha, usamos os parâmetros abaixo:
 ### Canais recomendados
 
 - **`LongFast`** — canal público, padrão de fábrica. É onde a comunidade conversa.
-- **`SC-EMERGENCIA`** — canal reservado para ocorrências. Mantenha habilitado mas silencioso. Detalhes em [Protocolos de Emergência](emergencia.md).
 - **Canal privado próprio** — crie um com PSK própria para conversar só com sua família/grupo. Compartilhe via QR code pelo app.
 
 ## 🏷️ Tipo de nó (Role)

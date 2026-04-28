@@ -25,10 +25,7 @@ Site oficial da [Defesa Civil de SC](https://www.defesacivil.sc.gov.br/).
 | Canal | Uso | PSK |
 | :--- | :--- | :--- |
 | `LongFast` | Canal primário, conversas gerais | Padrão público |
-| `SC-EMERGENCIA` | Reservado para relatos de ocorrência | A ser definido pela comunidade |
-| `SC-LOGISTICA` | Coordenação entre voluntários e repetidoras | A ser definido pela comunidade |
 
-Mantenha `SC-EMERGENCIA` sempre habilitado. Ele deve permanecer silencioso em dias normais — qualquer mensagem nele é sinal de que alguém precisa de atenção.
 
 ## 📢 Formato Padrão de Mensagem
 
@@ -73,16 +70,16 @@ Canais oficiais (190 / 192 / 193 / 199) funcionam?
     SIM       NÃO
      │         │
      ▼         ▼
-Use-os.    Monitore SC-EMERGENCIA.
+Use-os.    Monitore LongFast.
 SC Mesh    Envie mensagem no formato padrão.
 é apoio.   Se você é radioamador licenciado:
            pode escalonar para REER-SC.
 ```
 
 1. **Avalie primeiro se há canal oficial.** Se celular funciona ainda que fraco, tente 190/192/193/199 antes de qualquer coisa.
-2. **Se falharem ou estiverem saturados**, monitore `SC-EMERGENCIA`. Envie mensagens curtas no formato padrão.
+2. **Se falharem ou estiverem saturados**, monitore `LongFast`. Envie mensagens curtas no formato padrão.
 3. **Se você é radioamador licenciado**, pode escalonar para a REER-SC (veja abaixo).
-4. **Operadores de nó fixo**: desativem telemetria automática, aumentem a prioridade do canal `SC-EMERGENCIA`, mantenham-se atentos ao repasse.
+4. **Operadores de nó fixo**: desativem telemetria automática, aumentem a prioridade do canal `LongFast`, mantenham-se atentos ao repasse.
 
 ## 🔕 Disciplina de Rádio
 

@@ -67,7 +67,6 @@ Trimestral. Cenário fictício orquestrado pela comunidade. Avalia:
 - Adesão ao [formato padrão](emergencia.md#formato-padrao-de-mensagem).
 - Tempo do `[SOS]` ao primeiro reconhecimento.
 - Disciplina de canal.
-- Funcionamento dos canais `SC-EMERGENCIA` e `SC-LOGISTICA`.
 - Autonomia dos nós solares.
 
 ### Field day / teste de alcance
