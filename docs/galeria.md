@@ -33,7 +33,21 @@ Modelo:
 
 ## 🏠 Setups domésticos
 
-*Em construção. Seja o primeiro a contribuir.*
+### Florianópolis - Mini node Frankenstein ("Frankenodinho")
+
+* **Operador:** Carlos M.
+* **Hardware:** Seeed Xiao ESP32S3+Wio SX1262, Antena 5dBi, sensor BMP280, bateria 18650.
+* **Role:** CLIENT_BASE
+* **Custo:** R$80 (node) + R$5 (placa fenolite ilhada) + R$??? (fiação e parafusos reusados)
+* **Aprendizado:** O Xiao ESP32S3 tem um carregador de bateria integrado e ele é muito devagar; melhor usar um TP4056 no projeto. Melhor também usar um estojo pronto para a bateria.
+
+Inspirado no [Franken-Mesh](https://github.com/atoughram/Franken-Mesh/) , construí esse projeto dimensionado para uma placa de fenolite perfurada de 10x15cm, para deixar ligado em casa. O Xiao ESP32S3 tem uma boa especificação no microcontrolador mas a potência do rádio deixa a desejar.
+
+![Conjunto montado em placa perfurada](img/galeria/mini-frankenode/01.jpeg)
+
+![Estojo do node](img/galeria/mini-frankenode/02.jpeg)
+
+![Node montado no estojo](img/galeria/mini-frankenode/03.jpeg)
 
 ## 🏔️ Repetidoras em ponto alto
 
@@ -41,7 +55,17 @@ Modelo:
 
 ## ☀️ Sistemas solares
 
-*Em construção. Seja o primeiro a contribuir.*
+### Florianópolis - Sinalizador Náutico Solar
+
+* **Operador:** Carlos M.
+* **Hardware:** Seeed Xiao nRF52850+Wio SX1262, Antena 5dBi, sensor BH1750, circuito TP4056+bateria 18650 e painel solar.
+* **Role:** CLIENT
+* **Custo:** R$188 (dispositivo e sinalizador) + R$100 (outros materiais que eu já possuía)
+* **Aprendizado:** Pelo dimensionamento (baixo) dos paineis, ele precisa ter no mínimo 4 horas de exposição solar direta diária para manter a bateria com o Xiao em modo de economia de energia. Visada é tudo para um node com baixa potência como esse.
+
+Eu tinha visto o [projeto de um node no instructables](https://www.instructables.com/Meshtastic-Solar-Buoy/) reusando um sinalizador náutico. Ele vem vedado contra todos os elementos e é difícil de abrir, mas dentro traz três painéis solares ligados em série (5v) e uma bateria 18650 com terminais soldados. [Montei o meu](https://www.reddit.com/r/meshtastic/comments/1wjzb1v/so_i_made_that_solar_beacon_node/) fazendo uns ajustes no circuito de carregamento e usando um sensor de luminosidade, além de algumas impressões para fixação e vedação.
+
+![Imagem com vista do setup](img/galeria/sinalizador-nautico/01.jpeg)
 
 ## 🥾 Setups portáteis
 
